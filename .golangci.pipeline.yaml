@@ -32,7 +32,6 @@ linters:
     - revive
     - typecheck
     - unused
-    - shadow
 
 issues:
   exclude-use-default: false
