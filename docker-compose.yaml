@@ -31,5 +31,5 @@ services:
       context: .
       dockerfile: migration_prod.Dockerfile
     restart: on-failure
-    environment:
-      DB_HOST: pg-prod
+    env_file:
+      - "prod.env"
